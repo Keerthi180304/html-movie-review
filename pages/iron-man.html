@@ -57,6 +57,23 @@
             <div id="stream-now-section">
                 <a href="https://www.hotstar.com/in/movies/iron-man/1660000038" class="stream-now-button" target="_blank">STREAM ON DISNEY+</a>
             </div>
+        <div class="review-section">
+                <h3>Leave a Review</h3>
+                <form id="review-form">
+                    <textarea id="user-name" placeholder="Your Name" required></textarea>
+                    <textarea id="review-text" placeholder="Write your review here..." required></textarea>
+                    <label for="rating">Overall Rating</label>
+                    <div class="star-rating">
+                        <input type="radio" name="rating" id="star5" value="5"><label for="star5">★</label>
+                        <input type="radio" name="rating" id="star4" value="4"><label for="star4">★</label>
+                        <input type="radio" name="rating" id="star3" value="3"><label for="star3">★</label>
+                        <input type="radio" name="rating" id="star2" value="2"><label for="star2">★</label>
+                        <input type="radio" name="rating" id="star1" value="1"><label for="star1">★</label>
+                    </div>
+                    <button type="submit">Submit</button>
+                </form>
+                <div id="reviews-display"></div>
+            </div>
        
     </main>
 
